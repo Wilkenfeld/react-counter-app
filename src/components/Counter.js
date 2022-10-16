@@ -7,7 +7,7 @@ export default class Counter extends Component {
 
     render() {
         const { items } = this.context
-        return <span> Counter: <span style={{color: items != 0 ? "white" : "blue"}}> {items} </span> </span>
+        return <span> Counter: <span style={{color: items !== 0 ? "white" : "blue"}}> {items} </span> </span>
     }
 }
 
