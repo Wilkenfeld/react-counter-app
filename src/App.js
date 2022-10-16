@@ -9,9 +9,6 @@ import React from 'react';
 class App extends React.Component {
   state = { quote: '' }
 
-  constructor(props) {
-    super(props)
-  }
   render() {
     return (
       <div className="App">
