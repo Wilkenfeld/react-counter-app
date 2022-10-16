@@ -19,6 +19,11 @@
   text-align: center;
 }
 
+.TextElement {
+  width: 100%;
+  text-align: center;
+}
+
 .IncrementButton {
   background-color: green;
 }
